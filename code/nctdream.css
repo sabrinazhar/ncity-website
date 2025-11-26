@@ -1,0 +1,170 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #0BAF4Eff;
+}
+
+div.initpic {
+    background-image: url("nct\ dream\ cover.jpeg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    text-align: center;
+}
+
+div.initpictext {
+    position: absolute;
+    top: 80vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    font-size: 3vw;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: 0.3vw 0.3vw #FFC80Bff;
+}
+
+a.button {
+    font-family: 'Fjalla One', sans-serif;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.25vw;
+    background-color: #0BAF4Eff;
+    padding: 1.5vw 2vw;
+    text-align: center;
+    font-size: 1.5vw;
+    display: inline-block;
+}
+
+a.button:hover {
+    font-family: 'Fjalla One', sans-serif;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.25vw;
+    background-color: #1D90CFff;
+    padding: 1.5vw 2vw;
+    text-align: center;
+    font-size: 1.5vw;
+    display: inline-block;
+}
+
+div.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+div.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #1D90CFff;
+    width: 15vw;
+    z-index: 1;
+}
+
+div.dropdown-content a {
+    font-family: 'Fjalla One', sans-serif;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.25vw;
+    text-align: center;
+    font-size: 1.5vw;
+    display: block;
+    padding: 1.5vw 2vw;
+}
+
+div.dropdown-content a:hover {
+    background-color: #0BAF4Eff;
+}
+
+div.dropdown:hover div.dropdown-content {
+    display: block;
+}
+
+.bgchange1 {
+    background-color: #0BAF4Eff;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2.text1 {
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: 0.3vw 0.3vw #1D90CFff;
+    font-size: 6vw;
+    text-indent: 3vw;
+}
+
+p.text {
+    color: #FFC80Bff;
+    font-family: 'Fjalla One', sans-serif;
+    text-indent: 3vw;
+    font-size: 4vh;
+    margin: 3vw;
+}
+
+.bgchange2 {
+    background-color: whitesmoke;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2.text2 {
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    color: #0BAF4Eff;
+    text-shadow: 0.3vw 0.3vw #FFC80Bff;
+    font-size: 6vw;
+    text-indent: 3vw;
+}
+
+figure {
+    display: inline-block;
+    text-align: center;
+    font-size: medium;
+    color: #1D90CFff;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 0.25vw;
+}
+
+/* making the images circle shaped */
+img.member {
+    border-radius: 50%;
+}
+
+img.tour {
+    height: 50vh;
+    border-radius: 15%;
+}
+
+.tour1 {
+    justify-content: center; /* to make the objects center */
+    display: inline-block;
+    padding: 10px;
+}
+
+.tour2 {
+    justify-content: center;
+    display: inline-block;
+    padding: 5px;
+}
+
+.tds2 {
+    color: #FFC80Bff;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 0.25vw;
+    font-size: normal;
+}
+
+video {
+    height: 50vh;
+    border-radius: 15%; /*to make video slightly oval */
+}

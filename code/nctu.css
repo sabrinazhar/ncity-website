@@ -1,0 +1,153 @@
+/* initialising the page layout */
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: grey;
+}
+
+div.initpic {
+    background-image: url("nct\ u\ cover.jpeg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    text-align: center;
+}
+
+div.initpictext {
+    position: absolute;
+    top: 70vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    font-size: 3vw;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: 0.3vw 0.3vw grey;
+}
+
+a.button {
+    font-family: 'Fjalla One', sans-serif;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.25vw;
+    background-color: grey;
+    padding: 1.5vw 2vw;
+    text-align: center;
+    font-size: 1.5vw;
+    display: inline-block; /* to make the buttons side by side*/
+}
+
+a.button:hover {
+    font-family: 'Fjalla One', sans-serif;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.25vw;
+    background-color: lightgrey;
+    padding: 1.5vw 2vw;
+    text-align: center;
+    font-size: 1.5vw;
+    display: inline-block;
+}
+
+div.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+div.dropdown-content {
+    display: none; /* a line will not be displayed on the link */
+    position: absolute;
+    background-color: lightgrey;
+    width: 15vw;
+    z-index: 1;
+}
+
+div.dropdown-content a {
+    font-family: 'Fjalla One', sans-serif;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.25vw;
+    text-align: center;
+    font-size: 1.5vw;
+    display: block;
+    padding: 1.5vw 2vw;
+}
+
+div.dropdown-content a:hover {
+    background-color: grey;
+}
+
+div.dropdown:hover div.dropdown-content {
+    display: block;
+}
+
+.bgchange1 {
+    background-color: grey;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2.text1 {
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: 0.3vw 0.3vw darkgrey;
+    font-size: 6vw;
+    text-indent: 3vw;
+}
+
+p.text {
+    color: whitesmoke;
+    font-family: 'Fjalla One', sans-serif;
+    text-indent: 3vw;
+    font-size: 4vh;
+    margin: 3vw;
+    text-shadow: 0.1vw 0.1vw lightgrey;
+}
+
+.bgchange2 {
+    background-color: lightgrey;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2.text2 {
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    color: darkgrey;
+    text-shadow: 0.3vw 0.3vw grey;
+    font-size: 6vw;
+    text-indent: 3vw;
+}
+
+table.fit {
+    height: 70vh;
+    width: 95vw;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    margin-left: auto; /* center the table */
+    margin-right: auto; /* center the table */
+    font-size: small;
+    padding-left: 0px;
+}
+
+.center {
+    text-align: center;
+}
+
+iframe {
+    height: 60vh;
+    width: 50vw;
+}
+
+td {
+    column-width: 1vw;
+}

@@ -1,0 +1,193 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #F7CCDFff;
+}
+
+div.initpic {
+    background-image: url("nct127\ cover.jpg");
+    height: 100vh; /* to fit the device's screen */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    text-align: center;
+}
+
+div.initpictext {
+    position: absolute;
+    top: 30vh;
+    left: 50vw;
+    transform: translate(-50%, -50%); /* center text position */
+    font-size: 3vw;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: 0.3vw 0.3vw #F7CCDFff;
+}
+
+a.button {
+    font-family: 'Fjalla One', sans-serif;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.25vw;
+    background-color: #F7CCDFff;
+    padding: 1.5vw 2vw;
+    text-align: center;
+    font-size: 1.5vw;
+    display: inline-block;
+}
+
+a.button:hover {
+    font-family: 'Fjalla One', sans-serif;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.25vw;
+    background-color: #D53A53ff;
+    padding: 1.5vw 2vw;
+    text-align: center;
+    font-size: 1.5vw;
+    display: inline-block;
+}
+
+div.dropdown {
+    position: relative;
+    display: inline-block; /* to make dropdown vertical */
+}
+
+div.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #D53A53ff;
+    width: 15vw;
+    z-index: 1;
+}
+
+div.dropdown-content a {
+    font-family: 'Fjalla One', sans-serif;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.25vw;
+    text-align: center;
+    font-size: 1.5vw;
+    display: block;
+    padding: 1.5vw 2vw;
+}
+
+div.dropdown-content a:hover {
+    background-color: #F7CCDFff;
+}
+
+div.dropdown:hover div.dropdown-content {
+    display: block;
+}
+
+.bgchange1 {
+    background-color: #F7CCDFff;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2.text1 {
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: 0.3vw 0.3vw #D53A53ff;
+    font-size: 6vw;
+    text-indent: 3vw;
+}
+
+p.text {
+    color: #D53A53ff;
+    font-family: 'Fjalla One', sans-serif;
+    text-indent: 3vw;
+    font-size: 4vh;
+    margin: 3vw;
+    text-shadow: 0.2vw 0.2vw whitesmoke;
+}
+
+.bgchange2 {
+    background-color: whitesmoke;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2.text2 {
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    color: #F7CCDFff;
+    text-shadow: 0.3vw 0.3vw #D53A53ff;
+    font-size: 6vw;
+    text-indent: 3vw;
+}
+
+figure {
+    display: inline-block;
+    text-align: center;
+    font-size: medium;
+    color: #D53A53ff;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.25vw;
+}
+
+img { /* to make image door shaped */
+    border-top-right-radius: 30%;
+    border-top-left-radius: 30%;
+}
+
+a.social {
+    font-family: 'Fjalla One', sans-serif;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.25vw;
+    background-color: #D53A53ff;
+    padding: 8vh;
+    text-align: center;
+    font-size: 2vw;
+    display: block;
+    width: 50vw;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    border: none;
+}
+
+a.social:hover {
+    font-family: 'Fjalla One', sans-serif;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.25vw;
+    background-color: #F7CCDFff;
+    padding: 8vh;
+    text-align: center;
+    font-size: 2vw;
+    display: block;
+    width: 50vw;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    border: 1px solid #D53A53ff;
+    box-shadow: #D53A53ff;
+}
+
+/* create curve box for the social media button */
+.border1 {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.border2 {
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}

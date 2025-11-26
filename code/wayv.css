@@ -1,0 +1,178 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #AA1F00ff;
+}
+
+div.initpic {
+    background-image: url("wayv\ cover.webp");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    text-align: center;
+}
+
+div.initpictext {
+    position: absolute;
+    top: 80vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    font-size: 3vw;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: 0.3vw 0.3vw #AA1F00ff;
+}
+
+a.button {
+    font-family: 'Fjalla One', sans-serif;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.25vw;
+    background-color: #AA1F00ff;
+    padding: 1.5vw 2vw;
+    text-align: center;
+    font-size: 1.5vw;
+    display: inline-block;
+}
+
+a.button:hover {
+    font-family: 'Fjalla One', sans-serif;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.25vw;
+    background-color: #0E0100ff;
+    padding: 1.5vw 2vw;
+    text-align: center;
+    font-size: 1.5vw;
+    display: inline-block;
+}
+
+div.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+div.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0E0100ff;
+    width: 15vw;
+    z-index: 1;
+}
+
+div.dropdown-content a {
+    font-family: 'Fjalla One', sans-serif;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.25vw;
+    text-align: center;
+    font-size: 1.5vw;
+    display: block;
+    padding: 1.5vw 2vw;
+}
+
+div.dropdown-content a:hover {
+    background-color: #AA1F00ff;
+}
+
+div.dropdown:hover div.dropdown-content {
+    display: block;
+}
+
+.bgchange1 {
+    background-color: #AA1F00ff;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2.text1 {
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: 0.3vw 0.3vw #0E0100ff;
+    font-size: 6vw;
+    text-indent: 3vw;
+}
+
+p.text {
+    color: #0E0100ff;
+    font-family: 'Fjalla One', sans-serif;
+    text-indent: 3vw;
+    font-size: 4vh;
+    margin: 3vw;
+}
+
+.bgchange2 {
+    background-color: #0E0100ff;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2.text2 {
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    color: #AA1F00ff;
+    text-shadow: 0.3vw 0.3vw whitesmoke;
+    font-size: 6vw;
+    text-indent: 3vw;
+}
+
+figure {
+    display: inline-block;
+    text-align: center;
+    font-size: medium;
+    color: #AA1F00ff;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 0.25vw;
+    font-weight: bolder;
+}
+
+img.member {
+    border-bottom-right-radius: 50%; /* to create a leaf-like image */
+    box-shadow: 0.25vw 0.25vw;
+    color: whitesmoke;
+}
+
+h3.phantom {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 5vh;
+    margin: 3vw;
+    text-align: center;
+    color: white;
+    text-shadow: 0.3vw 0.3vw #0E0100ff;
+}
+
+.center {
+    justify-content: center;
+    display: inline-block;
+    padding: 10px;
+}
+
+p.phantom {
+    color: #0E0100ff;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 3vh;
+    margin: 3vw;
+    text-align: center;
+}
+
+/* creating scroll elements */
+.updates {
+    overflow: scroll;
+    height: 30vh;
+    width: 30vw;
+}
+
+iframe {
+    height: 30vh;
+    width: 30vw;
+}
